@@ -1,0 +1,38 @@
+.check {
+	&__title {
+		margin-top: 10px;
+		margin-bottom: 8px;
+
+		text-transform: uppercase;
+
+		font-size: em(18px);
+	}
+}
+
+.form {
+	@include cf;
+	&__element {
+		width: 90%;
+		margin-bottom: 6px;
+
+		text-transform: uppercase;
+
+		border: 1px solid #ddd;
+
+		font-size: em(14px);
+	}
+	&__submit {
+		float: right;
+
+		width: 44px;
+		height: 30px;
+		margin-top: 8px;
+		margin-right: 8%;
+
+		border: 1px solid #aaa;
+		background: linear-gradient(to bottom, #fff 0%, #ddd 100%);
+
+		font-size: em(12px);
+		line-height: 0;
+	}
+}

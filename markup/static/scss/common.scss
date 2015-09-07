@@ -1,0 +1,23 @@
+// Common styles of the project
+
+html,
+body {
+	height: 100%;
+
+	font-family: "AvenirNextLTPro-Regular";
+}
+
+.wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+.main {
+	display: flex;
+
+	margin-top: 40px;
+
+	align-items: flex-start;
+	@extend .wrapper;
+	justify-content: space-between;
+}

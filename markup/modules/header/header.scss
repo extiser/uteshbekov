@@ -1,0 +1,16 @@
+.header {
+	display: flex;
+
+	padding-top: 15px;
+
+	@extend .wrapper;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&__logo {
+		display: block;
+
+		margin: auto;
+
+		@include bg($logo);
+	}
+}

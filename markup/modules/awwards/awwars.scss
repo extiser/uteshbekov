@@ -1,0 +1,39 @@
+.awwards {
+	width: 90%;
+	padding-top: 15px;
+
+	text-align: right;
+	&__item {
+		margin-top: 40px;
+		blockquote {
+			font-size: em(17px);
+			&:before {
+				content: "\201C";
+			}
+			&:after {
+				content: "\201D";
+			}
+		}
+		p {
+			margin-top: 5px;
+
+			text-transform: uppercase;
+
+			font-size: em(11px);
+			&:before {
+				content: "\2014";
+			}
+		}
+	}
+	&__more {
+		text-decoration: none;
+
+		color: #444;
+
+		font-family: "AvenirNextLTPro-It";
+		font-size: em(12px);
+		&:hover {
+			color: #f90d1b;
+		}
+	}
+}

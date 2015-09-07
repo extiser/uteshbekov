@@ -1,0 +1,5 @@
+mixin slider()
+	section.slider#slider
+		- for (var i = 1; i < 5; i++) {
+		img(src="%=staticPrefix=%images/content/slide-#{i}.jpg" alt="").slider__item
+		- }

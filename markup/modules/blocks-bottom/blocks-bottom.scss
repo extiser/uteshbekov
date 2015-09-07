@@ -1,0 +1,32 @@
+.blocks-bottom {
+	display: flex;
+
+	margin-top: 40px;
+
+	align-items: flex-start;
+	@extend .wrapper;
+	justify-content: space-between;
+}
+
+.blocks-bottom-item {
+	width: 23%;
+
+	text-align: center;
+	&__title {
+		border-bottom: 1px solid #eee;
+	}
+	&__link {
+		display: block;
+
+		margin-top: 8px;
+
+		text-decoration: none;
+
+		color: #666;
+
+		font-size: em(14px);
+		&:hover {
+			color: #f90d1b;
+		}
+	}
+}
