@@ -1,0 +1,36 @@
+mixin contact-content()
+	section.contact-content
+		h1 CONTACT US
+
+		img(src="%=staticPrefix=%images/content/contact.jpg" alt="")
+
+		.contact-content-list
+			.contact-content-list__item Uteshbekov Studios
+			.contact-content-list__item info@Uteshbekov.com
+			.contact-content-list__item (843) 605-7533 Charleston
+			.contact-content-list__item (415) 347-6216 San Francisco
+			.contact-content-list__item (850) 586-5738 Rosemary Beach
+
+		.contact-content-form
+			form(method="" action="").form
+				label.form__label 
+					span NAME
+					input(type="text" value="").form__element
+				label.form__label 
+					span EMAIL
+					input(type="text" value="").form__element
+				label.form__label 
+					span PHONE
+					input(type="text" value="").form__element
+				label.form__label 
+					span EVENT DATE
+					input(type="text" value="").form__element
+				label.form__label 
+					span WEDDING LOCATION
+					input(type="text" value="").form__element
+				label.form__label 
+					span TELL US A LITTLE MORE ABOUT YOU AND YOUR PLANS
+					textarea.form__element.form__element--textarea
+
+				input(type="submit" value="Send").form__submit
+				

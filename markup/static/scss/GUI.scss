@@ -1,2 +1,13 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
+
+.title {
+	margin-top: 0;
+
+	text-align: center;
+
+	color: #666;
+
+	font-size: em(32px);
+	font-weight: normal;
+}

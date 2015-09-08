@@ -21,7 +21,7 @@
 		}
 		&:hover {
 			> a {
-				color: #f90d1b;
+				color: $red;
 				background-color: #ddd;
 			}
 			.top-menu-drop {
@@ -42,6 +42,7 @@
 
 .top-menu-drop {
 	position: absolute;
+	z-index: 99;
 	top: 22px;
 
 	visibility: hidden;

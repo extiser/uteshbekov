@@ -1,0 +1,9 @@
+mixin photorgrapher-content()
+	section.photorgrapher-content
+		- for (var i = 0; i < 4; i++) {
+		.photorgrapher-content-item
+			a(href="/portfolio.html" title="").photorgrapher-content-item__link BEN CHRISMAN
+			img(src="%=staticPrefix=%images/content/photorgrapher.jpg" alt="").photorgrapher-content-item__img
+			.photorgrapher-content-item__text When Ben was a little kid, he wrote down in a book what he wanted to be when he grew up. Photographer.
+				a(href="/portfolio.html" title="").photorgrapher-content-item__link.photorgrapher-content-item__link--folio VIEW PORTFOLIO
+		- }

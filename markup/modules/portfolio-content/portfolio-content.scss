@@ -1,0 +1,34 @@
+.portfolio-content {
+	display: flex;
+
+	align-items: flex-start;
+	@extend .main-content;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	h1 {
+		width: 100%;
+	}
+}
+
+.portfolio-content-item {
+	display: block;
+
+	width: 48%;
+	margin-bottom: 40px;
+	&__img {
+		width: 100%;
+	}
+	&__link {
+		text-decoration: none;
+
+		color: #333;
+
+		font-size: em(23px);
+		&:hover {
+			color: $red;
+		}
+	}
+	&__description {
+		font-size: em(13px);
+	}
+}

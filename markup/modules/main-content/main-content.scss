@@ -1,14 +1,7 @@
 .main-content {
 	width: 75%;
 	h1 {
-		margin-top: 0;
-
-		text-align: center;
-
-		color: #666;
-
-		font-size: em(32px);
-		font-weight: normal;
+		@extend .title;
 	}
 	img {
 		line-height: 0;

@@ -1,0 +1,11 @@
+mixin portfolio-content()
+	section.portfolio-content
+		h1 WEDDINGS BY BEN
+		- for (var i = 0; i < 6; i++) {
+		.portfolio-content-item
+			a(href="#" title="").portfolio-content-item__link LAUREN&BRAD
+			.portfolio-content-item__description Dorado Beach, Ritz-Carlton, Dorado, Puerto Rico
+			a(href="#" title="")
+				img(src="%=staticPrefix=%images/content/portfolio-preview.jpg" alt="").portfolio-content-item__img
+			.portfolio-content-item__description Lauren and Brad’s Puerto Rico wedding at the Ritz-Carlton Dorado Beach.
+		- }

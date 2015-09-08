@@ -1,0 +1,44 @@
+.photorgrapher-content {
+	padding-top: 5px;
+
+	@extend .main-content;
+}
+
+.photorgrapher-content-item {
+	display: flex;
+
+	margin-bottom: 40px;
+
+	align-items: flex-start;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	&__link {
+		display: block;
+
+		width: 100%;
+
+		text-decoration: none;
+
+		color: #333;
+
+		font-size: em(23px);
+		&:hover {
+			color: $red;
+		}
+		&--folio {
+			margin-top: 15px;
+
+			font-size: em(18px);
+		}
+	}
+	&__img {
+		margin-right: 15px;
+	}
+	&__text {
+		width: 65%;
+		padding: 15px 0;
+
+		font-size: em(14px);
+		line-height: em(21px, 14px);
+	}
+}
