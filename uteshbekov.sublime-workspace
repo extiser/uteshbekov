@@ -4,40 +4,48 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
 				"pad",
-				"padding-top"
+				"padding-left"
+			],
+			[
+				"he",
+				"header-language"
+			],
+			[
+				"h",
+				"header-language"
 			],
 			[
 				"ou",
 				"outline"
 			],
 			[
-				"te",
-				"text-transform"
-			],
-			[
-				"marign",
-				"margin"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
 				"margi",
 				"margin"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
 				"log",
 				"login-form"
-			],
-			[
-				"margin",
-				"margin-right"
 			],
 			[
 				"fom",
@@ -138,10 +146,6 @@
 			[
 				"top-me",
 				"top-menu__item"
-			],
-			[
-				"he",
-				"header-social"
 			],
 			[
 				"backgr",
@@ -510,10 +514,6 @@
 			[
 				"side",
 				"sidebar-widget"
-			],
-			[
-				"com",
-				"comments"
 			]
 		]
 	},
@@ -593,14 +593,18 @@
 	[
 		"/Users/extiser/git/uteshbekov/markup",
 		"/Users/extiser/git/uteshbekov/markup/modules",
-		"/Users/extiser/git/uteshbekov/markup/modules/include",
-		"/Users/extiser/git/uteshbekov/markup/modules/login-content",
+		"/Users/extiser/git/uteshbekov/markup/modules/slider",
 		"/Users/extiser/git/uteshbekov/markup/pages",
 		"/Users/extiser/git/uteshbekov/markup/static",
 		"/Users/extiser/git/uteshbekov/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/uteshbekov/markup/modules/slider/slider.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/slider/slider.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/slider/slider.js",
+		"/Users/extiser/git/uteshbekov/markup/modules/header/header.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/header/header.scss",
 		"/Users/extiser/git/uteshbekov/markup/pages/login.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/login-content/login-content.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/login-content/login-content.scss",
@@ -624,7 +628,6 @@
 		"/Users/extiser/git/uteshbekov/markup/modules/blog-content/blog-content.jade",
 		"/Users/extiser/git/uteshbekov/markup/pages/proofs.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/proofs-content/proofs-content.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/header/header.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/awwards-content/awwards-content.jade",
 		"/Users/extiser/git/uteshbekov/markup/pages/photographer.jade",
 		"/Users/extiser/git/uteshbekov/markup/pages/portfolio.jade",
@@ -646,9 +649,6 @@
 		"/Users/extiser/git/uteshbekov/markup/modules/awwards/awwars.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/news/news.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/check/check.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/slider/slider.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/slider/slider.scss",
-		"/Users/extiser/git/uteshbekov/markup/modules/header/header.jade",
 		"/Users/extiser/git/uteshbekov/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.scss",
@@ -727,8 +727,7 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/slider/slider.js",
 		"/Users/extiser/git/amkodor-lp/markup/modules/clients/clients.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/index.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.scss"
+		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.jade"
 	],
 	"find":
 	{

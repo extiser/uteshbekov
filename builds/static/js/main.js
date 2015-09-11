@@ -9,7 +9,19 @@ $(document).ready(function () {
         draggable: true,
         fade: true,
         dots: false,
-        pauseOnHover: true
+        pauseOnHover: false
+    });
+
+    $('.slider').append('<div class="slick-pause"></div>');
+
+    $('.slick-pause').click(function () {
+        if ($(this).hasClass('active')) {
+            $('#slider').slick('slickPlay');
+            $(this).removeClass('active');
+        } else {
+            $(this).addClass('active');
+            $('#slider').slick('slickPause');
+        }
     });
 });
 jQuery(document).ready(function ($) {
