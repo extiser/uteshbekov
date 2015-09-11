@@ -1,0 +1,110 @@
+.blog-content {
+	padding-bottom: 40px;
+
+	@extend .main-content;
+	@include cf;
+}
+
+.blog-content-meta {
+	margin-bottom: 50px;
+
+	color: #444;
+
+	font-size: em(13px);
+	@media screen and (max-width: 960px) {
+		padding: 0 10px;
+	}
+	&__title {
+		padding-right: 5px;
+
+		color: #000;
+
+		font-weight: 700;
+		font-style: italic;
+	}
+}
+
+
+.blog-content-reviews {
+	display: inline-block;
+
+	width: 49%;
+	@media screen and (max-width: 960px) {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0 10px;
+	}
+	&__title {
+		margin-bottom: 25px;
+
+		font-size: em(18px);
+		font-weight: 700;
+	}
+	&__list {
+		overflow-y: scroll;
+
+		min-height: 450px;
+
+		border: 1px solid #eee;
+	}
+	.blog-content-reviews-item {
+		display: flex;
+
+		padding: 15px;
+
+		border-bottom: 1px solid #eee;
+
+		flex-wrap: wrap;
+		justify-content: space-between;
+		&__author {
+			font-size: em(13px);
+		}
+		&__date {
+			color: #aaa;
+
+			font-size: em(13px);
+		}
+		&__text {
+			padding: 5px 0;
+
+			color: #444;
+
+			font-size: em(15px);
+			font-style: italic;
+		}
+	}
+}
+
+.blog-content-reviews-form {
+	display: inline-block;
+	float: right;
+
+	width: 49%;
+
+	vertical-align: top;
+	@media screen and (max-width: 960px) {
+		box-sizing: border-box;
+		width: 100%;
+		margin-top: 40px;
+		padding: 0 10px;
+	}
+	&__title {
+		margin-bottom: 25px;
+
+		font-size: em(18px);
+		font-weight: 700;
+	}
+	.form {
+		&__element {
+			box-sizing: border-box;
+			width: 100%;
+			padding: 3px;
+			&--textarea {
+				height: 160px;
+			}
+		}
+		&__submit {
+			margin-right: 0;
+		}
+	}
+}

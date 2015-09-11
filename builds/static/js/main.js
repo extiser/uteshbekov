@@ -5,9 +5,15 @@ $(document).ready(function () {
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        arrows: false,
+        arrows: true,
         draggable: true,
         fade: true,
-        dots: false
+        dots: false,
+        pauseOnHover: true
+    });
+});
+jQuery(document).ready(function ($) {
+    $('.top-menu__mobile').click(function () {
+        $(this).next().slideToggle();
     });
 });

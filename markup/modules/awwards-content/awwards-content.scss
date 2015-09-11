@@ -11,6 +11,14 @@
 	&__item {
 		width: 48%;
 		margin-top: 40px;
+		@media screen and (max-width: 480px) {
+			box-sizing: border-box;
+			width: 100%;
+			padding: 0 10px;
+		}
+		img {
+			width: 100%;
+		}
 		blockquote {
 			font-size: em(17px);
 			&:before {

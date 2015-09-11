@@ -1,0 +1,8 @@
+mixin proofs-content()
+	section.proofs-content
+		- for (var i = 0; i < 12; i++) {
+		.proofs-content-item
+			img(src="%=staticPrefix=%images/content/portfolio-preview.jpg" alt="").proofs-content-item__img
+			a(href="#" title="").proofs-content-item__link Sam's bar Mitzvah
+			.proofs-content-item__date May 16th, 2015
+		- }

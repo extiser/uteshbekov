@@ -2,6 +2,12 @@
 	padding-top: 5px;
 
 	@extend .main-content;
+	@media screen and (max-width: 960px) {
+		display: flex;
+
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
 }
 
 .photorgrapher-content-item {
@@ -12,6 +18,16 @@
 	align-items: flex-start;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	@media screen and (max-width: 960px) {
+		box-sizing: border-box;
+		width: 49%;
+		padding: 0 10px;
+
+		text-align: center;
+	}
+	@media screen and (max-width: 960px) {
+		width: 100%;
+	}
 	&__link {
 		display: block;
 
@@ -40,5 +56,8 @@
 
 		font-size: em(14px);
 		line-height: em(21px, 14px);
+		@media screen and (max-width: 960px) {
+			width: 100%;
+		}
 	}
 }

@@ -9,6 +9,11 @@
 
 	@extend .wrapper;
 	justify-content: space-between;
+	@media screen and (max-width: 960px) {
+		padding-bottom: 0;
+
+		flex-wrap: wrap;
+	}
 	&__item {
 		display: block;
 
@@ -20,6 +25,10 @@
 		color: #666;
 
 		font-size: em(14px);
+		@media screen and (max-width: 960px) {
+			width: 100%;
+			margin-bottom: 15px;
+		}
 	}
 	a {
 		&:hover {

@@ -1,5 +1,43 @@
 .slider {
 	margin-top: 15px;
 
+	text-align: center;
+
 	@extend .wrapper;
+	.slick-prev,
+	.slick-next {
+		width: 16px;
+		height: 16px;
+		margin: 10px 5px;
+
+		text-indent: -9999px;
+
+		border: 0;
+		background-color: transparent;
+		&:focus {
+			outline: none;
+		}
+	}
+	.slick-prev {
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAgklEQVQ4T6WTwQ2AIBAEh460A63E2JmlWIJ2YgnmEjEED1giHz7MsFmOgL42YAdsf1cQeYOW5+yaShRBCpvjBIZ4cUvgwRNwKYImbJJSAgkuCWTYE3TBiuAA5rS0/Nm9DvIUVYlaYlFSmwMpSe8gfZK0BNaZl2RUJjEt/NdniiL3O98nTCoRjFvJjAAAAABJRU5ErkJggg==");
+	}
+	.slick-next {
+		background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAhklEQVQ4T5XT0RVAMAyF4d8GNmEDRmEyTMIIRnLieKg0TdM+xrmfo1c68rMAE7Aaz7JRpyYS3r7ZHkE0cANDglYRDfTA1YJoQF7ehFhAE1ICwogHhJAIcAJj0swBSN3vqX2CG/YAaaIaLgHhsAU0hS1A/8q/C7OWy1umarh0B1LRnFblrfUDD9ceEc/sNH0AAAAASUVORK5CYII=");
+	}
+}
+
+.slider-copyright {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+
+	color: #fff;
+
+	font-family: "AvenirNextLTPro-It";
+	font-size: em(14px);
+	span {
+		padding-left: 3px;
+
+		font-family: "AvenirNextLTPro-Regular";
+	}
 }

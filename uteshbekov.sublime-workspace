@@ -5,15 +5,83 @@
 		[
 			[
 				"pad",
-				"padding-bottom"
+				"padding-top"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"marign",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"log",
+				"login-form"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"fom",
+				"form__element"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"blog-c",
+				"blog-content-reviews-item"
+			],
+			[
+				"blog-",
+				"blog-content-reviews"
+			],
+			[
+				"pro",
+				"proofs-content-item"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"p",
+				"photorgrapher-content-item__link"
+			],
+			[
+				"ph",
+				"photorgrapher-content-item__link"
+			],
+			[
+				"po",
+				"portfolio-content"
 			],
 			[
 				"foo",
 				"footer__item"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"fo",
@@ -24,28 +92,12 @@
 				"margin-top"
 			],
 			[
-				"marign",
-				"margin-top"
-			],
-			[
 				"bl",
 				"blocks-bottom-item__link"
 			],
 			[
 				"blo",
 				"blocks-bottom-item"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"marg",
@@ -58,10 +110,6 @@
 			[
 				"mag",
 				"margin-bottom"
-			],
-			[
-				"in",
-				"inline-block"
 			],
 			[
 				"las",
@@ -78,10 +126,6 @@
 			[
 				"штука",
 				"штукатурка"
-			],
-			[
-				"po",
-				"popular-articles-item"
 			],
 			[
 				"border-bo",
@@ -158,10 +202,6 @@
 			[
 				"ad",
 				"advantages__item"
-			],
-			[
-				"ou",
-				"outline-color"
 			],
 			[
 				"sl",
@@ -256,10 +296,6 @@
 				"list-style-position"
 			],
 			[
-				"margi",
-				"margin-right"
-			],
-			[
 				"ma",
 				"margin"
 			],
@@ -290,10 +326,6 @@
 			[
 				"bore",
 				"border"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"max-",
@@ -374,10 +406,6 @@
 			[
 				"au",
 				"authors"
-			],
-			[
-				"for",
-				"form__submit"
 			],
 			[
 				"form",
@@ -486,34 +514,6 @@
 			[
 				"com",
 				"comments"
-			],
-			[
-				"si",
-				"similar-article"
-			],
-			[
-				"cate",
-				"category-item"
-			],
-			[
-				"border-b",
-				"border-bottom"
-			],
-			[
-				"bord",
-				"border-bottom"
-			],
-			[
-				"padi",
-				"padding-right"
-			],
-			[
-				"border-r",
-				"border-right"
-			],
-			[
-				"inlin",
-				"inline-block"
 			]
 		]
 	},
@@ -593,37 +593,62 @@
 	[
 		"/Users/extiser/git/uteshbekov/markup",
 		"/Users/extiser/git/uteshbekov/markup/modules",
-		"/Users/extiser/git/uteshbekov/markup/modules/footer",
-		"/Users/extiser/git/uteshbekov/markup/modules/top-menu",
+		"/Users/extiser/git/uteshbekov/markup/modules/include",
+		"/Users/extiser/git/uteshbekov/markup/modules/login-content",
 		"/Users/extiser/git/uteshbekov/markup/pages",
 		"/Users/extiser/git/uteshbekov/markup/static",
 		"/Users/extiser/git/uteshbekov/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/uteshbekov/markup/pages/index.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/footer/footer.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/footer/footer.scss",
-		"/Users/extiser/git/uteshbekov/markup/modules/blocks-bottom/blocks-bottom.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/blocks-bottom/blocks-bottom.scss",
+		"/Users/extiser/git/uteshbekov/markup/pages/login.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/login-content/login-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/login-content/login-content.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/include/include.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/main-content/main-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/check/check.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/contact-content/contact-content.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/proofs-content/proofs-content.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/blog-content/blog-content.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/awwards-content/awwards-content.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/portfolio-content/portfolio-content.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/photorgrapher-content/photorgrapher-content.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/blocks-bottom/blocks-bottom.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/sidebar/sidebar.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/main-content/main-content.scss",
+		"/Users/extiser/git/uteshbekov/markup/static/scss/common.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/top-menu/top-menu.js",
+		"/Users/extiser/git/uteshbekov/markup/pages/blog.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/blog-content/blog-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/pages/proofs.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/proofs-content/proofs-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/header/header.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/awwards-content/awwards-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/pages/photographer.jade",
+		"/Users/extiser/git/uteshbekov/markup/pages/portfolio.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/breadcrumbs/breadcrumbs.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/breadcrumbs/breadcrumbs.scss",
+		"/Users/extiser/git/uteshbekov/markup/pages/awwards.jade",
+		"/Users/extiser/git/uteshbekov/markup/pages/contact.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/contact-content/contact-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/photorgrapher-content/photorgrapher-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/pages/index.jade",
+		"/Users/extiser/git/uteshbekov/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/portfolio-content/portfolio-content.jade",
+		"/Users/extiser/git/uteshbekov/markup/static/scss/vars.scss",
+		"/Users/extiser/git/uteshbekov/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/blocks-bottom/blocks-bottom.jade",
+		"/Users/extiser/git/uteshbekov/markup/modules/main-content/main-content.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/sidebar/sidebar.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/awwards/awwards.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/awwards/awwars.scss",
-		"/Users/extiser/git/uteshbekov/markup/static/scss/common.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/news/news.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/sidebar/sidebar.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/check/check.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/check/check.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/slider/slider.jade",
 		"/Users/extiser/git/uteshbekov/markup/modules/slider/slider.scss",
 		"/Users/extiser/git/uteshbekov/markup/modules/header/header.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/header/header.scss",
-		"/Users/extiser/git/uteshbekov/markup/modules/top-menu/top-menu.jade",
-		"/Users/extiser/git/uteshbekov/markup/modules/top-menu/top-menu.scss",
-		"/Users/extiser/git/uteshbekov/markup/static/scss/vars.scss",
 		"/Users/extiser/git/uteshbekov/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.jade",
 		"/Users/extiser/git/shtukaturkapro/markup/modules/footer/footer.scss",
@@ -703,32 +728,7 @@
 		"/Users/extiser/git/amkodor-lp/markup/modules/clients/clients.jade",
 		"/Users/extiser/git/amkodor-lp/markup/pages/index.jade",
 		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/video/video.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/delivery-map/delivery-map.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/how/how.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/how/how.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/services/services.jade",
-		"/Users/extiser/git/amkodor-lp/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/advantages/advantages.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request-now/request-now.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/advantages/advantages.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/request/request.jade",
-		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.scss",
-		"/Users/extiser/git/amkodor-lp/markup/modules/top-menu/top-menu.js",
-		"/Users/extiser/git/amkodor/markup/pages/guarantee.jade",
-		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/top-menu/top-menu.jade",
-		"/Users/extiser/git/amkodor/markup/modules/include/include.jade",
-		"/Users/extiser/git/amkodor/markup/modules/guarantee-content/guarantee-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/product-list-content/product-list-content.jade",
-		"/Users/extiser/git/amkodor/markup/modules/catalog-content/catalog-content.scss",
-		"/Users/extiser/git/amkodor/markup/modules/page-content/page-content.scss"
+		"/Users/extiser/git/amkodor-lp/markup/modules/about/about.scss"
 	],
 	"find":
 	{

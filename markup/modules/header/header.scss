@@ -3,14 +3,37 @@
 
 	padding-top: 15px;
 
+	align-items: center;
 	@extend .wrapper;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	&__logo {
 		display: block;
 
-		margin: auto;
+		@include bg($logo-desktop);
+	}
+}
 
-		@include bg($logo);
+.header-language {
+	margin-right: 20px;
+	&__item {
+		padding-left: 10px;
+
+		text-decoration: none;
+
+		color: #333;
+
+		font-size: em(14px);
+		&:hover {
+			text-decoration: underline;
+		}
+		&:first-child {
+			padding-right: 10px;
+
+			border-right: 1px solid #cecece;
+		}
+		&.active {
+			font-family: "AvenirNextLTPro-Bold";
+		}
 	}
 }
